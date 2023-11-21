@@ -1,0 +1,88 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Verify user can Login",
+        "description": "",
+        "id": "this-is-a-login-feature-for-verify-loging-functionality;verify-user-can-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3637517300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Open Demoblaze Application",
+            "match": {
+              "location": "Planstepdep.open_Demoblaze_Application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 82535500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Click Login",
+            "match": {
+              "location": "Planstepdep.click_Login()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 292073200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Enter Username",
+            "match": {
+              "location": "Planstepdep.enter_Username()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 83526600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Enter Password",
+            "match": {
+              "location": "Planstepdep.enter_Password()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3215174300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Verify user can Login",
+            "match": {
+              "location": "Planstepdep.verify_user_can_Login()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@Ripon"
+          }
+        ]
+      }
+    ],
+    "name": "This is a Login feature for verify Loging Functionality",
+    "description": "",
+    "id": "this-is-a-login-feature-for-verify-loging-functionality",
+    "keyword": "Feature",
+    "uri": "riponlogin.feature"
+  }
+]
